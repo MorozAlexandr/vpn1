@@ -2,7 +2,59 @@
   "ovpn_file": [
     {
       "id": 0,
-      "file": "client dev tun proto udp ... d4ec4105a39c814bd980c9c0e0b8efb4 -----END OpenVPN Static key V1----- </tls-auth>"
+      "file": "client
+server-poll-timeout 4
+nobind
+remote 34.39.44.197 1194 udp
+remote 34.39.44.197 1194 udp
+remote 34.39.44.197 443 tcp
+remote 34.39.44.197 1194 udp
+remote 34.39.44.197 1194 udp
+remote 34.39.44.197 1194 udp
+remote 34.39.44.197 1194 udp
+remote 34.39.44.197 1194 udp
+dev tun
+dev-type tun
+remote-cert-tls server
+tls-version-min 1.2
+reneg-sec 604800
+tun-mtu 1420
+verb 3
+push-peer-info
+
+<ca>
+-----BEGIN CERTIFICATE-----
+MIIBeTCB/6ADAgECAgRqAkopMAoGCCqGSM49BAMCMBUxEzARBgNVBAMMCk9wZW5W
+UE4gQ0EwHhcNMjYwNTEwMjEyOTEzWhcNMzYwNTA4MjEyOTEzWjAVMRMwEQYDVQQD
+DApPcGVuVlBOIENBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEaE6wi0kEu82PFmWh
+3THmBfDJbXkKctN/gZbJglodk0UBR2kh5crNtGlTMEOuX+H2UeCMX0qxmyxhZheT
+B6dRuk5g1VCLriSy8TTU4buck9wlyuxOCpIo9vvq5PzX9JNKoyAwHjAPBgNVHRMB
+Af8EBTADAQH/MAsGA1UdDwQEAwIBBjAKBggqhkjOPQQDAgNpADBmAjEAiIeQXvRC
+dmRDMWkgT5FSFu3S4HZQ5llbkzZ1MtI7PB8mvrbk4zgNw8Ku2tluPst4AjEAjCqG
+gFSi//UiqaEAsgnJ847w32Nc0xRexizKPtl13gdbUSjDjO1VsB+46/JGgZFv
+-----END CERTIFICATE-----
+</ca>
+<cert>
+-----BEGIN CERTIFICATE-----
+MIIBpjCCASygAwIBAgIIT+NLU7Ed+oUwCgYIKoZIzj0EAwIwFTETMBEGA1UEAwwK
+T3BlblZQTiBDQTAeFw0yNjA1MTUyMDIzMDZaFw0zNjA1MTMyMDIzMDZaMBkxFzAV
+BgNVBAMMDmFsZXhfQVVUT0xPR0lOMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE9cME
+NzwSXM6wD3DWc/43msWx2leKtWYwtruNI8YorekM3GyZ4P56piw0cNWvDYv7FAZD
+05reJlb0gu7X/6OT7TfHgea01r1XZWXj256Fz29hKB/Pijp7t5kp/PHZY6yUo0Uw
+QzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcD
+AjARBglghkgBhvhCAQEEBAMCB4AwCgYIKoZIzj0EAwIDaAAwZQIwZqenNpgoXavb
+r6vSAj22fUhjLOrdUzP1BAGz0xY3OMw/YaziHujFZwWwVlKhvfG0AjEA5NfrySlA
+DJSZBRHMSpMslNMkm0+RLDoYuUNnPTBVo/wwPUa5Q9G+xh+Sqjy0LBvQ
+-----END CERTIFICATE-----
+</cert>
+<key>
+-----BEGIN PRIVATE KEY-----
+MIG2AgEAMBAGByqGSM49AgEGBSuBBAAiBIGeMIGbAgEBBDBIgwiiT0E9K4MSHglP
+YpAr/GUYwL/CQrB56MmGrha9WLsk5KwxPMhK3vqkztivv+OhZANiAAT1wwQ3PBJc
+zrAPcNZz/jeaxbHaV4q1ZjC2u40jxiit6QzcbJng/nqmLDRw1a8Ni/sUBkPTmt4m
+VvSC7tf/o5PtN8eB5rTWvVdlZePbnoXPb2EoH8+KOnu3mSn88dljrJQ=
+-----END PRIVATE KEY-----
+</key>"
     }
   ]
 }
