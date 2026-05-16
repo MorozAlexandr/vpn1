@@ -55,8 +55,8 @@ v9K4K48Oo8MI3klTHjopfVXEueP+ihI8eVXOR2yzXNFQFo7Je07IBHQy4CvD21BS
 wDoDb8PNd98+YRXH4lA1Zd4Vj73fobwFAsjV8AzeWv5RRaIxffBLSGA=
 -----END PRIVATE KEY-----
 </key>
-<tls-crypt>
------BEGIN OpenVPN tls-crypt client key-----
+<tls-crypt-v2>
+-----BEGIN OpenVPN tls-crypt-v2 client key-----
 +vX39+tKY/IDjxk7MNOiS+Wy1GBc5CIKEZOl0uE7eQkhUsaxkephINJ9LuNDbBTV
 zTj000hT91Sku9GxyROdEhHMCH76pKjBs1+dMQ5vovG5uz51zSxGw1L7aniN1ALR
 NzBS/AAdEcdfZ4qbTC46SuNVf5rBjeQ/bMccJrkhq/8mjrozkvf5/9HOdIuYn69J
@@ -70,8 +70,8 @@ iDMCfhHFPM3tu7vxmo9RXpSRUKAogf3sdqfwcffsKUFbB3LgJ5RefwHGYGhweIi0
 vKPZwKAWeFgS+KQIgOM96TDQBSl3NC1HRhuTbMDnz25UGm79kl5dI+VpN1fTTD7y
 K34fm5NZiMtlFE5zU6PjofxTLyYtdbxY3RfR8PExtZysipsMGZaGVtCaKPcAjkY1
 lHIXRLJm96mCv0iXYc2npZO/TpH6BDsBWQ==
------END OpenVPN tls-crypt client key-----
-</tls-crypt>"
+-----END OpenVPN tls-crypt-v2 client key-----
+</tls-crypt-v2>"
     }
   ]
 }
